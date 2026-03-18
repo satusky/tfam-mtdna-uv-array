@@ -1,7 +1,7 @@
 # TFAM-mtDNA protein binding microarray (PBM) analysis
 
-This repository contains the code used to derive data and figures in [King, Beard, Satusky et al. (2026)](https://doi.org/10.7554/eLife.108862.3).
->King Dillon E, Beard Emily E, Satusky Matthew J, George Alex, Ryde Ian, Johnson Caitlin, Dolan Emma L, Zhang Yuning, Zhu Wei, Wilkins Hunter, Corden Evan, Murphy Susan K, Erie Dorothy, Gordân Raluca, Meyer Joel N (2026) UV irradiation alters TFAM binding specificity and compaction of DNA eLife2026; 14:RP108862
+This repository contains the code used to derive data and figures in [King, Beard, Satusky et al. (2025)](https://doi.org/10.7554/eLife.108862.3).
+>King Dillon E, Beard Emily E, Satusky Matthew J, George Alex, Ryde Ian, Johnson Caitlin, Dolan Emma L, Zhang Yuning, Zhu Wei, Wilkins Hunter, Corden Evan, Murphy Susan K, Erie Dorothy, Gordân Raluca, Meyer Joel N (2025) UV irradiation alters TFAM binding specificity and compaction of DNA eLife2026; 14:RP108862
 
 ## Requirements
 
