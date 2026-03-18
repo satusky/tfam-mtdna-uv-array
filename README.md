@@ -3,7 +3,7 @@ This repository contains the code used to derive data and figures in [https://do
 >King Dillon E, Beard Emily E, Satusky Matthew J, George Alex, Ryde Ian, Johnson Caitlin, Dolan Emma L, Zhang Yuning, Zhu Wei, Wilkins Hunter, Corden Evan, Murphy Susan K, Erie Dorothy, Gordân Raluca, Meyer Joel N (2025) UV irradiation alters TFAM binding specificity and compaction of DNA eLife2026; 14:RP108862
 
 ## Requirements
-Running notebooks locally requires (jupyter)[https://jupyter.org/]. Original figures were generated using Python 3.11, but the code is compatible with Python >= 3.10, < 3.13.
+Running notebooks locally requires [jupyter](https://jupyter.org/). Original figures were generated using Python 3.11, but the code is compatible with Python >= 3.10, < 3.13.
 Using a virtual environment is recommended. To set up the environment, use one of the following options:
 venv:
 ```bash
