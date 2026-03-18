@@ -1,20 +1,20 @@
 # TFAM-mtDNA protein binding microarray (PBM) analysis
 This repository contains the code used to derive data and figures in [https://doi.org/10.7554/eLife.108862.3]
-```
-King Dillon E, Beard Emily E, Satusky Matthew J, George Alex, Ryde Ian, Johnson Caitlin, Dolan Emma L, Zhang Yuning, Zhu Wei, Wilkins Hunter, Corden Evan, Murphy Susan K, Erie Dorothy, Gordân Raluca, Meyer Joel N (2025) UV irradiation alters TFAM binding specificity and compaction of DNA eLife2026; 14:RP108862
-```
+>King Dillon E, Beard Emily E, Satusky Matthew J, George Alex, Ryde Ian, Johnson Caitlin, Dolan Emma L, Zhang Yuning, Zhu Wei, Wilkins Hunter, Corden Evan, Murphy Susan K, Erie Dorothy, Gordân Raluca, Meyer Joel N (2025) UV irradiation alters TFAM binding specificity and compaction of DNA eLife2026; 14:RP108862
+
 ## Requirements
 Running notebooks locally requires (jupyter)[https://jupyter.org/]. Original figures were generated using Python 3.11, but the code is compatible with Python >= 3.10, < 3.13.
 Using a virtual environment is recommended. To set up the environment, use one of the following options:
 venv:
-```
-use environment name tf-uv-pbm
-pip install ...
+```bash
+python -m venv tfam-uv-pbm
+source tfam-uv-pbm/bin/activate
+pip install -r requirements.txt
 ```
 conda:
-```
-conda install ...
-...
+```bash
+conda env create -f environment.yml
+conda activate tfam-uv-pbm
 ```
 
 ## PBM dataframe creation
@@ -48,9 +48,7 @@ conda install ...
     - Figure 3 figure supplement 8
     - Figure 3 figure supplement 9
 - description: Notebook used for comparing high and low affinity regions identified by [https://doi.org/10.1038/s41594-024-01225-6] 
-```
-Isaac RS, Tullius TW, Hansen KG, Dubocanin D, Couvillion M, Stergachis AB, Churchman LS. 2024. Single-nucleoid architecture reveals heterogeneous packaging of mitochondrial DNA. Nature Structural & Molecular Biology 31:568–577. 10.1038/s41594-024-01225-6, 38347148
-```
+>Isaac RS, Tullius TW, Hansen KG, Dubocanin D, Couvillion M, Stergachis AB, Churchman LS. 2024. Single-nucleoid architecture reveals heterogeneous packaging of mitochondrial DNA. Nature Structural & Molecular Biology 31:568–577. 10.1038/s41594-024-01225-6, 38347148
 
 ## Footprinting simulation
 - file: `footprinting_simulation.py`
@@ -58,9 +56,7 @@ Isaac RS, Tullius TW, Hansen KG, Dubocanin D, Couvillion M, Stergachis AB, Churc
 - figures in paper:
     - Figure 3 figure supplement 6
 - description: Script comparing high affinity regions identified by [https://doi.org/10.1101/gr.230409.117] 
-```
-Blumberg A, Danko CG, Kundaje A, Mishmar D. 2018. A common pattern of DNase I footprinting throughout the human mtDNA unveils clues for a chromatin-like organization. Genome Research 28:1158–1168. 10.1101/gr.230409.117, 30002158
-```
+>Blumberg A, Danko CG, Kundaje A, Mishmar D. 2018. A common pattern of DNase I footprinting throughout the human mtDNA unveils clues for a chromatin-like organization. Genome Research 28:1158–1168. 10.1101/gr.230409.117, 30002158
 
 
 ## GEO creation
