@@ -24,18 +24,18 @@ conda activate tfam-uv-pbm
 
 ## PBM Dataframe Creation
 
-**File:** `tfam_uv_pbm_df_creation.ipynb`
-**Data:** `data/df_creation/`
-**Figures in paper:**
+### File: `tfam_uv_pbm_df_creation.ipynb`
+### Data: `data/df_creation/`
+### Figures in paper:
 - Figure 3 figure supplement 2
 
 Notebook used for creating a Pandas DataFrame from the PBM outputs.
 
 ## PBM Analysis
 
-**File:** `tfam_uv_pbm_analysis.ipynb`
-**Data:** `data/`
-**Figures in paper:**
+### File: `tfam_uv_pbm_analysis.ipynb`
+### Data: `data/`
+### Figures in paper:
 - Figure 3 main
 - Figure 3 figure supplement 3
 - Figure 3 figure supplement 4
@@ -47,9 +47,9 @@ Notebook used for main PBM analysis and figure generation.
 
 ## Fiber-seq Comparison
 
-**File:** `fiber_seq_data_comparison.ipynb`
-**Data:** `data/`, `data/fiber_seq_comparison/`
-**Figures in paper:**
+### File: `fiber_seq_data_comparison.ipynb`
+### Data: `data/`, `data/fiber_seq_comparison/`
+### Figures in paper:
 - Figure 3 main
 - Figure 3 figure supplement 3
 - Figure 3 figure supplement 4
@@ -62,9 +62,9 @@ Notebook used for comparing high and low affinity regions identified by [Isaac e
 
 ## Footprinting Simulation
 
-**File:** `footprinting_simulation.py`
-**Data:** `data/`, `data/footprinting_comparison`
-**Figures in paper:**
+### File: `footprinting_simulation.py`
+### Data: `data/`, `data/footprinting_comparison`
+### Figures in paper:
 - Figure 3 figure supplement 6
 
 Script comparing high affinity regions identified by [Blumberg et al. (2018)](https://doi.org/10.1101/gr.230409.117).
@@ -72,7 +72,7 @@ Script comparing high affinity regions identified by [Blumberg et al. (2018)](ht
 
 ## GEO Creation
 
-**File:** `create_geo_dataset.py`
-**Data:** `data/`
+### File: `create_geo_dataset.py`
+### Data: `data/`
 
 Converts CSV to GEO dataset.
